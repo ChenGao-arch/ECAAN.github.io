@@ -313,7 +313,7 @@
   </div>
 </section>
 
-
+<!-- 
 <!-- Teaser video-->
 <section class="hero teaser">
   <div class="container is-max-desktop">
@@ -331,6 +331,23 @@
   </div>
 </section>
 <!-- End teaser video -->
+-->
+    
+<!-- Teaser image-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <!-- TODO: Replace with your teaser image -->
+      <img src="static/videos/depth_motivation-v2.jpg" alt="Teaser Image" id="tree" style="width:100%; height:auto;">
+      <!-- TODO: Replace with your image description -->
+      <h2 class="subtitle has-text-centered">
+        One typical example with the related parallax attention maps.  The point $1$ is visible in all views and the attention value achieves an apparent bright spot in one specific point in each pair view. The point $2,3$ are ambiguous in some views. These features are aggregated combining the occlusion masks to obtain accurate parallax attention.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser image -->
+
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -341,7 +358,7 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            Disparity estimation is an essential step in processing and analyzing Light Field (LF) images. Recent methods construct the cost volume to exploit the correspondence of the LFs over the preset maximum disparity,  limiting them to process the large parallax scenes. Different from constructing cost volume, the self-attention mechanism calculates the parallax attention between epipolar lines to find the matching points. However, for LFs that have different views, the related disparity scales are different in parallax attention since the baselines with the central view are different. Moreover, if the matching information is occluded in one view, the disparity information can be explored through other views. Therefore, mapping these attentions to the same scale and selecting effective matching information are key points for disparity estimation from parallax attention. In this paper, we explore parallax attention for LF and design an unsupervised method, named \textbf{E}pipolar \textbf{C}onsistent \textbf{A}ttention \textbf{A}ggregation \textbf{N}etwork (\textbf{ECAAN}). We first introduce an epipolar consistent scale unification block by considering the consistency relationships to standardize disparity scales of the parallax attention maps. Based on the intra-properties and inter-relationships of parallax attention, we further propose a consistent occlusion-free aggregation block to integrate the information from the occlusion-free areas. In addition, we design an improved photometric loss to constrain the model.ECAAN achieves state-of-the-art performance in LF depth estimation. Notably, ECAAN attains a mean square error of 0.2 on large-disparity LF datasets, achieving a 68\% error reduction compared to the second-best method.
+            Disparity estimation is an essential step in processing and analyzing Light Field (LF) images. Recent methods construct the cost volume to exploit the correspondence of the LFs over the preset maximum disparity,  limiting them to process the large parallax scenes. Different from constructing cost volume, the self-attention mechanism calculates the parallax attention between epipolar lines to find the matching points. However, for LFs that have different views, the related disparity scales are different in parallax attention since the baselines with the central view are different. Moreover, if the matching information is occluded in one view, the disparity information can be explored through other views. Therefore, mapping these attentions to the same scale and selecting effective matching information are key points for disparity estimation from parallax attention. In this paper, we explore parallax attention for LF and design an unsupervised method, named <b>E</b>b>pipolar <b>C</b>onsistent <b>A</b>b>ttention <b>A</b>b>ggregation <b>N</b>b>etwork (<b>ECAAN</b>). We first introduce an epipolar consistent scale unification block by considering the consistency relationships to standardize disparity scales of the parallax attention maps. Based on the intra-properties and inter-relationships of parallax attention, we further propose a consistent occlusion-free aggregation block to integrate the information from the occlusion-free areas. In addition, we design an improved photometric loss to constrain the model.ECAAN achieves state-of-the-art performance in LF depth estimation. Notably, ECAAN attains a mean square error of 0.2 on large-disparity LF datasets, achieving a 68% error reduction compared to the second-best method.
           </p>
         </div>
       </div>
@@ -350,7 +367,21 @@
 </section>
 <!-- End paper abstract -->
 
-
+<!-- Teaser image-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <!-- TODO: Replace with your teaser image -->
+      <img src="static/vedios/PAM-20240702.jpg" alt="Teaser Image" id="tree" style="width:100%; height:auto;">
+      <!-- TODO: Replace with your image description -->
+      <h2 class="subtitle has-text-centered">
+        One typical example with the related parallax attention maps.  The point $1$ is visible in all views and the attention value achieves an apparent bright spot in one specific point in each pair view. The point $2,3$ are ambiguous in some views. These features are aggregated combining the occlusion masks to obtain accurate parallax attention.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser image -->
+    
 <!-- Image carousel -->
 <section class="hero is-small">
   <div class="hero-body">
