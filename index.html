@@ -355,7 +355,7 @@
       <img src="static/videos/PAM-20240702.jpg" alt="Teaser Image" id="tree" style="width:100%; height:auto;">
       <!-- TODO: Replace with your image description -->
       <h2 class="subtitle has-text-centered">
-        An overview of our disparity estimation network. After feature extraction, the epipolar parallax attention maps are constructed by the H-EPA and V-EPA. The epipolar parallax attention maps are aggregated based on the epipolar consistent attention aggregation. Finally, the disparity map is generated through the disparity regression.
+        The overview of our disparity estimation network. After feature extraction, the epipolar parallax attention maps are constructed by the H-EPA and V-EPA. The epipolar parallax attention maps are aggregated based on the epipolar consistent attention aggregation. Finally, the disparity map is generated through the disparity regression.
       </h2>
     </div>
   </div>
@@ -369,33 +369,26 @@
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
+        <img src="static/images/Table1.jpg" alt="First research result visualization" loading="lazy"/>
         <!-- TODO: Replace with description of this result -->
         <h2 class="subtitle has-text-centered">
-          First image description.
+          Quantitative comparison of MSE*100/Bp(0.3,0,1,0.05) on SLFD dataset. The best results are in bold.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
+        <img src="static/images/Table2.jpg" alt="Second research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-          Second image description.
+          Quantitative comparsion of the MSE*100/Bp(0.07) metrics on HCI dataset. 
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
+        <img src="static/images/Table3.jpg" alt="Third research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-         Third image description.
+         Result of variant models.
        </h2>
      </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
   </div>
 </div>
 </div>
@@ -403,64 +396,45 @@
 <!-- End image carousel -->
 
 
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
+<!-- Image carousel -->
+<section class="hero is-light">
   <div class="hero-body">
     <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
       <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
+       <div class="item">
+        <!-- TODO: Replace with your research result images -->
+        <img src="static/images/depth_time.jpg" alt="First research result visualization" loading="lazy"/>
+        <!-- TODO: Replace with description of this result -->
+        <h2 class="subtitle has-text-centered">
+          Comparative analysis with state-of-the-art methods on the SLFD dataset. Left: Performance metrics of models on Bp across thresholds (0.3, 0.1, 0.05). Right: Quantitative results for MSE (×100) and Inference Time (seconds). Our method achieves state-of-the-art performance across all metrics while maintaining competitive computational efficiency. Lower values of the Bp and MSE metrics indicate better performance.
+        </h2>
       </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/big_vis_dis.jpg" alt="Second research result visualization" loading="lazy"/>
+        <h2 class="subtitle has-text-centered">
+         Visual comparison of the disparity maps estimated by different methods on SLFD. 
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/disparity_large_3.8.jpg" alt="Third research result visualization" loading="lazy"/>
+        <h2 class="subtitle has-text-centered">
+         Visual comparison of different methods on real-world scenes ‘Lego Bulldozer’ and ‘Lego Knights’. The input 3 ×3 views are selected (label in the above line) with different intervals to make the disparity ranges increase gradually.
+       </h2>
+     </div>
+     <div class="item">
+      <!-- Your image here -->
+      <img src="vis_real_final_3.3.jpg" alt="Fourth research result visualization" loading="lazy"/>
+      <h2 class="subtitle has-text-centered">
+        Visual comparison on real-world small disparity LFs.
+      </h2>
     </div>
   </div>
+</div>
+</div>
 </section>
-<!-- End video carousel -->
-
-
-
+<!-- End image carousel -->
 
 
 
